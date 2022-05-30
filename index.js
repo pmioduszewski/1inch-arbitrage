@@ -55,7 +55,6 @@ const customTokens = {
 		},
 	},
 };
-53.15783;
 
 const bannedProtocols = {
 	AVALANCHE: ["BAGUETTE"],
@@ -129,11 +128,11 @@ const chains = {
 };
 
 const networkApiBaseURL = {
-	// AVALANCHE: `https://api.1inch.io/${chains.AVALANCHE.v}/${chains.AVALANCHE.code}/`,
+	AVALANCHE: `https://api.1inch.io/${chains.AVALANCHE.v}/${chains.AVALANCHE.code}/`,
 	// FANTOM: `https://api.1inch.io/${chains.FANTOM.v}/${chains.FANTOM.code}/`,
 	// POLYGON: `https://api.1inch.io/${chains.POLYGON.v}/${chains.POLYGON.code}/`,
 	// OPTIMISM: `https://api.1inch.io/${chains.OPTIMISM.v}/${chains.OPTIMISM.code}/`,
-	ARBITRUM: `https://api.1inch.io/${chains.ARBITRUM.v}/${chains.ARBITRUM.code}/`,
+	// ARBITRUM: `https://api.1inch.io/${chains.ARBITRUM.v}/${chains.ARBITRUM.code}/`,
 	// GNOSIS: `https://api.1inch.io/${chains.GNOSIS.v}/${chains.GNOSIS.code}/`,
 };
 const stepId = ["a", "b", "c", "d"];
